@@ -7,7 +7,6 @@
     "ionutvmi.path-autocomplete",
     "ms-vscode.vscode-typescript-tslint-plugin",
     "PKief.material-icon-theme",
-    "msjsdiag.debugger-for-chrome",
-    "natewallace.angular2-inline"
+    "msjsdiag.debugger-for-chrome"
   ]
 }
