@@ -65,6 +65,7 @@
   "explorer.openEditors.visible": 0,
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
+  "editor.formatOnSave": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
