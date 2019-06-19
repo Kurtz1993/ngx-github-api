@@ -85,9 +85,6 @@
   "prettier.trailingComma": "es5",
   "prettier.printWidth": 90,
   "telemetry.enableTelemetry": false,
-  "terminal.integrated.shellArgs.osx": [
-    "-l"
-  ],
   "typescript.referencesCodeLens.enabled": true,
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
