@@ -1,0 +1,116 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "debug.openExplorerOnEnd": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "'Dank Mono', 'Fira Code', Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "fontStyle::italic",
+        "scope": [
+          "comment",
+          "comment.block.documentation",
+          "comment.line.double-slash",
+          "constant", //String, Number, Boolean…, this, super
+          "entity.other.attribute-name.js",
+          "entity.other.attribute-name.jsx",
+          "entity.other.attribute-name.ts",
+          "entity.other.attribute-name.tsx",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "keyword.control",
+          "keyword.control.flow.python",
+          "keyword.control.import.python",
+          "markup.italic.markdown",
+          "markup.quote.markdown",
+          "punctuation.definition.comment",
+          "storage",
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "var.this",
+          "variable.language.special.self",
+          "variable.language.super",
+          "variable.language.this",
+          "variable.language.this.js",
+          "variable.language.this.jsx",
+          "variable.language.this.ts",
+          "variable.language.this.tsx",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  "explorer.openEditors.visible": 0,
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "html.format.wrapLineLength": 90,
+  "html.format.wrapAttributes": "force",
+  "html.format.endWithNewline": true,
+  "html.format.maxPreserveNewLines": 1,
+  "material-icon-theme.activeIconPack": "angular_ngrx",
+  "material-icon-theme.showUpdateMessage": false,
+  "prettier.arrowParens": "avoid",
+  "prettier.eslintIntegration": true,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 90,
+  "telemetry.enableTelemetry": false,
+  "terminal.integrated.shellArgs.osx": [
+    "-l"
+  ],
+  "typescript.referencesCodeLens.enabled": true,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "zenMode.hideTabs": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "prettier.tslintIntegration": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
