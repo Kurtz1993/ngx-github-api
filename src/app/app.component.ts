@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
+
+import { GithubService } from './services/github.service';
+import { Repository } from './models/repository.model';
 
 @Component({
   selector: 'app-root',
@@ -6,7 +10,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  repositories$: Observable<Repository[]>;
+
+  constructor(private githubService: GithubService) {}
+
   searchRepositoriesByUsername(username: string) {
-    alert(username);
+    this.repositories$ = this.githubService.getRepositoriesByUsername(username);
   }
 }

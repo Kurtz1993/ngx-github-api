@@ -1,1 +1,2 @@
 <app-search (search)="searchRepositoriesByUsername($event)"></app-search>
+<app-repository-list [repositories]="repositories$ | async"></app-repository-list>
