@@ -7,6 +7,7 @@ export interface Repository {
    * This is the date of the latest pushed commit.
    */
   pushed_at: string;
+  html_url: string;
   /**
    * This is the number of stars that the repository has.
    *
