@@ -9,6 +9,7 @@ import {
   RepositoryListComponent,
   RepositoryCardComponent,
 } from './components';
+import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {
     SearchComponent,
     RepositoryListComponent,
     RepositoryCardComponent,
+    CustomDatePipe,
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule],
   providers: [],
