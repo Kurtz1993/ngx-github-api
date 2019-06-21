@@ -86,7 +86,7 @@
   "prettier.printWidth": 90,
   "telemetry.enableTelemetry": false,
   "typescript.referencesCodeLens.enabled": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "zenMode.hideTabs": false,
   "gitlens.views.fileHistory.enabled": true,
